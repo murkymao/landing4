@@ -1,4 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 .navbar-brand {
     position: relative;
     bottom: 50px;
+}
+
+.background-top {
+    background: url("../img/background-top.png") center;
+    text-align: center;
+    min-height: 640px;
+    width: 100%;
+    background-size: 100%;
+
+    /*для нормализации для всех расширений экрана*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
 }
