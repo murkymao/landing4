@@ -10,15 +10,28 @@
     box-sizing: border-box;
 }
 
+h1  {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+h1::after {
+    content: url("../img/blue-circle.png");
+}
+
 .navbar-brand {
     position: relative;
     bottom: 50px;
 }
 
+.navbar-brand img {
+    margin-left: 60px;
+}
+
 .background-top {
     background: url("../img/background-top.png") center;
     text-align: center;
-    min-height: 640px;
+    min-height: 715px;
     width: 100%;
     background-size: 100%;
 
@@ -28,8 +41,17 @@
     -o-background-size: cover;
 }
 
+.navbar-fixed-bottom {
+    padding: 5px 0 5px 0;
+}
+
+.navbar-nav.navbar-right:last-child {
+    margin-right: 55px;
+}
+
 .navbar-inverse .navbar-nav > li > a {
     color: #ffffff;
+    font-size: 18px;
     /*font-family: "PROMPT", sans-serif;*/
 
 }
