@@ -29,7 +29,7 @@ h1::after {
 .background-top {
     background: url("../img/background-top.png") center;
     text-align: center;
-    min-height: 715px;
+    min-height: 760px;
     width: 100%;
     background-size: 100%;
 
