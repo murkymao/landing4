@@ -93,7 +93,7 @@ h2::after {
 
 .icons {
     margin-top: 85px;
-    margin-right: -55px;
+    margin-right: 65px;
     font-family: "Prompt", sans-serif;
     font-size: 16px;
 }
@@ -124,7 +124,29 @@ h2::after {
     clear: both;
 }
 .layer {
-    margin-top: 150px;
-    margin-right: -55px;
+    margin-top: 250px;
+    margin-right: 65px;
     font-family: "Prompt", sans-serif;
+    background-color: #ffffff;
+}
+
+.layer:hover {
+    background-color: #e64138;
+    color: #ffffff;
+}
+
+.layer h2 {
+    margin-bottom: 50px;
+}
+
+.layer p {
+    font-weight: lighter;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.layer .layer-description {
+    font-size: 18px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
