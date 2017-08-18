@@ -150,3 +150,7 @@ h2::after {
     margin-top: 100px;
     margin-bottom: 100px;
 }
+
+.item img {
+    width: 100%;
+}
